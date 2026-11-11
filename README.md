@@ -1,5 +1,7 @@
 # Non-dust Capsule Stacking
 
+<img src="media/icon.png" alt="Non-dust Capsule Stacking icon" width="128" height="128">
+
 Ctrl+K stacks nearby matching Sand or Stone capsules.
 
 ## Install
