@@ -1,0 +1,6 @@
+{
+  "schema": "moon-independent-build-spec/v1",
+  "id": "item-stacking",
+  "kind": "native",
+  "entry": "mods/item-stacking/mod.c"
+}

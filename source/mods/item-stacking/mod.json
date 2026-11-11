@@ -1,0 +1,14 @@
+{
+  "id": "item-stacking",
+  "kind": "native",
+  "version": "0.1.0",
+  "display_name": "Non-dust Capsule Stacking",
+  "backlog": "M20",
+  "feature_dependencies": [],
+  "gameplay": true,
+  "hotkey": "Ctrl+K",
+  "play_help": [
+    "Ctrl+K stacks nearby matching Sand or Stone capsules.",
+    "Gameplay testing is deferred; use a disposable Steam-only world."
+  ]
+}
