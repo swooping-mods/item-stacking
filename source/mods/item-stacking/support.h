@@ -18,8 +18,8 @@ static inline void sx_event(const char *name,int amount){
 static inline int sx_down(int vk){return moon_input_key((unsigned)vk);}
 static inline int sx_host(int *ok){
     if(!boolean(sx.joined,0,ok))return *ok;
-    PTR h=call(sx.host,0,0,ok),l=call(sx.local,0,0,ok);U64 a=0,b=0;
-    if(h)dcopy(&a,unbox(h),8);if(l)dcopy(&b,unbox(l),8);return *ok&&a&&a==b;
+    U64 a=0,b=0;PTR h=call(sx.host,0,0,ok);if(h)dcopy(&a,unbox(h),8);
+    PTR l=call(sx.local,0,0,ok);if(l)dcopy(&b,unbox(l),8);return *ok&&a&&a==b;
 }
 static inline PTR sx_world(PTR walker,int *ok){
     PTR world=0;field_value(walker,sx.world_field,&world);if(!world)return 0;
